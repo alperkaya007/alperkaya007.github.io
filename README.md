@@ -38,8 +38,15 @@ python -m http.server 8000
 > ve LinkedIn footer'da bağlı. Projelere GitHub repo linki eklemek istersen
 > `#projects` kartlarına `Projeyi İncele` linkleri geri eklenebilir.
 
-## Yayınlama (GitHub Pages)
+## Yayın
 
-1. GitHub'da `kullaniciadi.github.io` adında repo aç
-2. Bu klasördeki dosyaları yükle
-3. Site `https://kullaniciadi.github.io` adresinde yayında olur
+Site **https://alperkaya007.github.io** adresinde yayında
+(repo: [alperkaya007/alperkaya007.github.io](https://github.com/alperkaya007/alperkaya007.github.io), GitHub Pages `main` dalından otomatik yayınlanır).
+
+Değişiklikleri yayınlamak için:
+
+```
+git add -A
+git commit -m "açıklama"
+git push
+```
