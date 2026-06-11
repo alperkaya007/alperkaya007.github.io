@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alper Kaya | Bilgisayar Mühendisi & Web Developer</title>
+  <meta name="description" content="Alper Kaya — Bilgisayar Mühendisi & Web Developer. Web teknolojileri, gömülü sistemler ve yapay zekâ destekli geliştirme.">
+  <meta property="og:title" content="Alper Kaya | Bilgisayar Mühendisi & Web Developer">
+  <meta property="og:description" content="Web teknolojileri, gömülü sistemler ve yapay zekâ destekli geliştirme.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23e1a87a'/%3E%3Ctext x='50' y='68' font-size='48' font-family='Arial' font-weight='bold' fill='%231a1a1a' text-anchor='middle'%3EAK%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner container">
+      <a href="#home" class="logo">Alper<span class="logo-accent"> Kaya</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" data-i18n="nav_about">Hakkımda</a></li>
+        <li><a href="#services" data-i18n="nav_services">Hizmetler</a></li>
+        <li><a href="#projects" data-i18n="nav_projects">Projeler</a></li>
+        <li><a href="#experience" data-i18n="nav_experience">Deneyim</a></li>
+        <li><a href="#skills" data-i18n="nav_skills">Yetenekler</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">İletişim</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="lang-toggle" role="group" aria-label="Dil seçimi">
+          <button class="lang-btn" data-lang="tr">TR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menü">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-hello reveal" data-i18n="hero_hello">Merhaba, ben Alper 👋</p>
+          <h1 class="hero-title reveal">
+            <span data-i18n="hero_title_1">Bilgisayar Mühendisi &amp;</span><br>
+            <span class="accent" data-i18n="hero_title_2">Web Developer</span>
+          </h1>
+          <p class="hero-type reveal"><span id="typewriter"></span><span class="cursor">|</span></p>
+          <div class="hero-cta reveal">
+            <a href="#contact" class="btn btn-accent" data-i18n="hero_btn1">Birlikte Çalışalım</a>
+            <a href="#projects" class="btn btn-ghost"><span data-i18n="hero_btn2">Projelerimi Gör</span> <span class="arrow">→</span></a>
+          </div>
+        </div>
+
+        <!-- Animasyonlu portre alanı: nesne tanıma çerçevesi (OpenCV projesine selam) -->
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="portrait-wrap">
+            <div class="detect-grid"></div>
+            <div class="portrait">AK</div>
+            <div class="detect-frame">
+              <span class="corner c-tl"></span>
+              <span class="corner c-tr"></span>
+              <span class="corner c-bl"></span>
+              <span class="corner c-br"></span>
+              <div class="scan-line"></div>
+            </div>
+            <div class="detect-label">
+              <span class="detect-dot"></span>
+              <span id="detectText">web_developer · 0.99</span>
+            </div>
+            <div class="floating-icon fi-1">{ }</div>
+            <div class="floating-icon fi-2">&lt;/&gt;</div>
+            <div class="floating-icon fi-3">☕</div>
+            <div class="floating-icon fi-4">🤖</div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Aşağı kaydır"><span></span></a>
+    </section>
+
+    <!-- ===== FEATURES / ABOUT ===== -->
+    <section class="section features" id="about">
+      <div class="container features-grid">
+        <div class="feature reveal">
+          <h2 data-i18n="feature1_title">Yeni Mezun Bilgisayar Mühendisiyim</h2>
+          <p data-i18n="feature1_text">
+            Selçuk Üniversitesi Bilgisayar Mühendisliği'nden Haziran 2025'te mezun
+            oldum. Staj dönemlerimde HTML, CSS ve PHP ile kurumsal web siteleri
+            geliştirdim; responsive arayüz tasarımı ve içerik entegrasyonunda
+            deneyim kazandım.
+          </p>
+          <a href="#experience" class="text-link"><span data-i18n="feature1_link">Deneyimime göz at</span> <span class="arrow">→</span></a>
+        </div>
+        <div class="feature reveal">
+          <h2 data-i18n="feature2_title">Yapay Zekâ ile Geliştiriyorum</h2>
+          <p data-i18n="feature2_text">
+            Claude Code ve GitHub Copilot gibi modern yapay zekâ araçlarını
+            geliştirme sürecime entegre ediyorum. Gömülü sistemlerden bilgisayarlı
+            görüye uzanan projelerimde çözüm odaklı ve takım çalışmasına yatkın
+            bir yaklaşım benimsiyorum.
+          </p>
+          <a href="#skills" class="text-link"><span data-i18n="feature2_link">Yeteneklerimi incele</span> <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section section-light" id="services">
+      <div class="container">
+        <h2 class="section-title reveal" data-i18n="services_title">Size Nasıl Yardımcı Olabilirim?</h2>
+        <p class="section-sub reveal" data-i18n="services_sub">İhtiyacınıza göre uçtan uca web çözümleri.</p>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <span class="service-icon">💻</span>
+            <h3 data-i18n="svc1_title">Web Geliştirme</h3>
+            <p data-i18n="svc1_text">Sıfırdan modern, hızlı ve güvenilir web siteleri geliştiriyorum.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-icon">📱</span>
+            <h3 data-i18n="svc2_title">Responsive Tasarım</h3>
+            <p data-i18n="svc2_text">Her ekran boyutunda kusursuz görünen arayüzler tasarlıyorum.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-icon">🤖</span>
+            <h3 data-i18n="svc3_title">AI Destekli Geliştirme</h3>
+            <p data-i18n="svc3_text">Claude Code ve Copilot ile geliştirme süreçlerini hızlandırıyorum.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-icon">⚡</span>
+            <h3 data-i18n="svc4_title">Performans</h3>
+            <p data-i18n="svc4_text">Siteleri hız ve verimlilik için optimize ediyorum.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-icon">🔌</span>
+            <h3 data-i18n="svc5_title">Gömülü Sistemler &amp; IoT</h3>
+            <p data-i18n="svc5_text">Arduino ve sensörlerle akıllı otomasyon sistemleri kuruyorum.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-icon">🛠️</span>
+            <h3 data-i18n="svc6_title">Bakım &amp; Destek</h3>
+            <p data-i18n="svc6_text">Yayındaki sitelerin güncel ve sorunsuz kalmasını sağlıyorum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal" data-i18n="projects_title">Projelerim</h2>
+        <p class="section-sub reveal" data-i18n="projects_sub">Geliştirdiğim bazı çalışmalar.</p>
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-banner banner-1" aria-hidden="true">🌱</div>
+            <div class="project-body">
+              <h3 data-i18n="project1_title">Akıllı Sera Otomasyon Sistemi</h3>
+              <p data-i18n="project1_desc">
+                Sıcaklık, nem ve toprak nemini izleyerek sulama, havalandırma ve
+                aydınlatmayı otomatik kontrol eden Arduino tabanlı otomasyon sistemi.
+              </p>
+              <div class="project-tags"><span>Arduino</span><span>IoT</span><span>Sensör Entegrasyonu</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-banner banner-2" aria-hidden="true">👁️</div>
+            <div class="project-body">
+              <h3 data-i18n="project2_title">Gerçek Zamanlı Nesne Tanıma</h3>
+              <p data-i18n="project2_desc">
+                Python ve OpenCV ile geliştirilen, görüntü işleme teknikleriyle
+                canlı görüntü üzerinde nesne tespiti yapan uygulama.
+              </p>
+              <div class="project-tags"><span>Python</span><span>OpenCV</span><span>Computer Vision</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-banner banner-3" aria-hidden="true">🏢</div>
+            <div class="project-body">
+              <h3 data-i18n="project3_title">Kurumsal Web Siteleri</h3>
+              <p data-i18n="project3_desc">
+                Interio'daki stajım sırasında HTML, CSS ve PHP ile geliştirdiğim
+                responsive kurumsal web siteleri.
+              </p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>PHP</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE & EDUCATION ===== -->
+    <section class="section section-light" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal" data-i18n="exp_title">Deneyim &amp; Eğitim</h2>
+        <p class="section-sub reveal" data-i18n="exp_sub">Bugüne kadarki yolculuğum.</p>
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <span class="timeline-date" data-i18n="exp1_date">Şubat 2025 – Mayıs 2025</span>
+            <h3 data-i18n="exp1_title">Web Geliştirme Stajyeri</h3>
+            <p class="timeline-place" data-i18n="exp1_place">Interio Kurumsal Reklam Hizmetleri · Konya</p>
+            <p class="timeline-text" data-i18n="exp1_text">
+              HTML, CSS ve PHP ile kurumsal web siteleri geliştirdim; responsive
+              arayüzler tasarladım ve içerik entegrasyonunu yürüttüm.
+            </p>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-date" data-i18n="exp2_date">Temmuz 2024 – Ağustos 2024</span>
+            <h3 data-i18n="exp2_title">Stajyer Bilgisayar Mühendisi</h3>
+            <p class="timeline-place" data-i18n="exp2_place">Manavgat Belediyesi – Bilgi İşlem · Antalya</p>
+            <p class="timeline-text" data-i18n="exp2_text">
+              Bilgi işlem biriminde yazılım ve donanım süreçlerine destek verdim;
+              BT altyapısını gözlemleyip belgeledim.
+            </p>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-date" data-i18n="exp3_date">Mezuniyet: Haziran 2025</span>
+            <h3 data-i18n="exp3_title">Bilgisayar Mühendisliği Lisans</h3>
+            <p class="timeline-place" data-i18n="exp3_place">Selçuk Üniversitesi · Konya</p>
+            <p class="timeline-text" data-i18n="exp3_text">
+              Yazılım geliştirme, web teknolojileri, gömülü sistemler ve yapay zekâ
+              üzerine lisans eğitimi. Selçuk Teknofest Topluluğu üyesi.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section section-dark" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal" data-i18n="skills_title">Yetenekler</h2>
+        <p class="section-sub reveal" data-i18n="skills_sub">Çalıştığım teknolojiler ve araçlar.</p>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3 data-i18n="skills_g1_title">Programlama &amp; Web</h3>
+            <div class="badges">
+              <span class="badge">Python</span>
+              <span class="badge">C#</span>
+              <span class="badge">PHP</span>
+              <span class="badge">HTML5</span>
+              <span class="badge">CSS3</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">Responsive Design</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3 data-i18n="skills_g2_title">Yapay Zekâ &amp; Gömülü Sistemler</h3>
+            <div class="badges">
+              <span class="badge">OpenCV</span>
+              <span class="badge">Computer Vision</span>
+              <span class="badge">Claude Code</span>
+              <span class="badge">GitHub Copilot</span>
+              <span class="badge">Prompt Engineering</span>
+              <span class="badge">Arduino</span>
+              <span class="badge">IoT</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3 data-i18n="skills_g3_title">Araçlar &amp; Sertifikalar</h3>
+            <div class="badges">
+              <span class="badge">Git</span>
+              <span class="badge">VS Code</span>
+              <span class="badge">Arduino IDE</span>
+              <span class="badge">Microsoft Azure (AZ-900)</span>
+              <span class="badge">KOSGEB Girişimcilik</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT CTA ===== -->
+    <section class="section contact-band" id="contact">
+      <div class="container contact-inner">
+        <h2 class="reveal" data-i18n="contact_title">Birlikte harika bir şeyler yapalım</h2>
+        <p class="reveal" data-i18n="contact_text">
+          Yeni fırsatlara her zaman açığım. Bir projeniz mi var, yoksa sadece
+          merhaba mı demek istiyorsunuz? Bana yazın!
+        </p>
+        <a href="mailto:alperkaya1299@gmail.com" class="btn btn-dark reveal"><span data-i18n="contact_btn">E-posta Gönder</span> <span class="arrow">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">Alper<span class="logo-accent"> Kaya</span></a>
+      <a href="mailto:alperkaya1299@gmail.com" class="footer-mail">alperkaya1299@gmail.com</a>
+      <div class="footer-socials">
+        <a href="https://github.com/alperkaya007" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14 0 1.54-.01 2.79-.01 3.17 0 .31.21.68.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/alper-kaya-a07a96327" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+      </div>
+      <p class="footer-copy">© <span id="year">2026</span> Alper Kaya. <span data-i18n="footer_rights">Tüm hakları saklıdır.</span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
