@@ -35,14 +35,14 @@ const translations = {
 
     services_title: "Size Nasıl Yardımcı Olabilirim?",
     services_sub: "İhtiyacınıza göre uçtan uca web çözümleri.",
-    svc1_title: "Web Geliştirme",
-    svc1_text: "Sıfırdan modern, hızlı ve güvenilir web siteleri geliştiriyorum.",
-    svc2_title: "Responsive Tasarım",
-    svc2_text: "Her ekran boyutunda kusursuz görünen arayüzler tasarlıyorum.",
+    svc1_title: "Web & Full-Stack Geliştirme",
+    svc1_text: "Next.js ve React ile uçtan uca, hızlı ve ölçeklenebilir web uygulamaları geliştiriyorum.",
+    svc2_title: "Mobil Uygulama Geliştirme",
+    svc2_text: "Flutter ile tek kod tabanından iOS ve Android uygulamaları geliştiriyorum.",
     svc3_title: "AI Destekli Geliştirme",
     svc3_text: "Claude Code ve Copilot ile geliştirme süreçlerini hızlandırıyorum.",
-    svc4_title: "Performans",
-    svc4_text: "Siteleri hız ve verimlilik için optimize ediyorum.",
+    svc4_title: "Responsive Tasarım",
+    svc4_text: "Her ekran boyutunda kusursuz görünen arayüzler tasarlıyorum.",
     svc5_title: "Gömülü Sistemler & IoT",
     svc5_text: "Arduino ve sensörlerle akıllı otomasyon sistemleri kuruyorum.",
     svc6_title: "Bakım & Destek",
@@ -50,6 +50,27 @@ const translations = {
 
     projects_title: "Projelerim",
     projects_sub: "Geliştirdiğim bazı çalışmalar.",
+    proj_view: "Projeyi İncele",
+    proj_featured_badge: "⭐ Öne Çıkan Proje",
+    proj_archi_title: "ArchiMotion — Yapay Zekâ Destekli Mimari Video Platformu",
+    proj_archi_desc:
+      "Mimarlar ve müteahhitler için yapay zekâ ile mimari tanıtım videoları " +
+      "üreten tam kapsamlı SaaS platformu. Next.js ile geliştirildi; kullanıcı " +
+      "yönetimi (Supabase), abonelik ödemeleri (Stripe) ve Three.js ile 3B bina " +
+      "animasyonları içeriyor.",
+    proj_chat_title: "Flutter AI Sohbet Uygulaması",
+    proj_chat_desc:
+      "Claude API ile çalışan, çapraz platform yapay zekâ sohbet uygulaması. " +
+      "Gerçek zamanlı mesajlaşma, sohbet geçmişi ve özelleştirilebilir AI " +
+      "karakterleri sunuyor.",
+    proj_expense_title: "Flutter Gider Takip Uygulaması",
+    proj_expense_desc:
+      "Flutter ve Firebase ile geliştirilen kapsamlı bir gider takip uygulaması. " +
+      "Kategoriler, bütçeler, grafikler ve aylık raporlar içeriyor.",
+    proj_vibe_title: "Vibe Coding Showcase",
+    proj_vibe_desc:
+      "Yapay zekâ destekli geliştirme araçlarıyla (Cursor, Claude) hızlıca " +
+      "prototiplenmiş mini mobil uygulamalar koleksiyonu.",
     project1_title: "Akıllı Sera Otomasyon Sistemi",
     project1_desc:
       "Sıcaklık, nem ve toprak nemini izleyerek sulama, havalandırma ve " +
@@ -86,9 +107,10 @@ const translations = {
 
     skills_title: "Yetenekler",
     skills_sub: "Çalıştığım teknolojiler ve araçlar.",
-    skills_g1_title: "Programlama & Web",
-    skills_g2_title: "Yapay Zekâ & Gömülü Sistemler",
-    skills_g3_title: "Araçlar & Sertifikalar",
+    skills_g1_title: "Frontend & Web",
+    skills_g2_title: "Mobil & Backend",
+    skills_g3_title: "Yapay Zekâ & Gömülü Sistemler",
+    skills_g4_title: "Diller & Araçlar",
 
     contact_title: "Birlikte harika bir şeyler yapalım",
     contact_text:
@@ -98,9 +120,9 @@ const translations = {
     footer_rights: "Tüm hakları saklıdır.",
 
     typewriter: [
-      "Responsive web siteleri geliştiriyorum.",
+      "Next.js ve React ile full-stack uygulamalar geliştiriyorum.",
+      "Flutter ile çapraz platform mobil uygulamalar yazıyorum.",
       "Python ve OpenCV ile görüntü işliyorum.",
-      "Arduino ile akıllı sistemler kuruyorum.",
       "Yapay zekâ destekli araçlarla hızlı geliştiriyorum."
     ]
   },
@@ -135,14 +157,14 @@ const translations = {
 
     services_title: "How Can I Help You?",
     services_sub: "End-to-end web solutions tailored to your needs.",
-    svc1_title: "Web Development",
-    svc1_text: "I build modern, fast and reliable websites from scratch.",
-    svc2_title: "Responsive Design",
-    svc2_text: "Interfaces that look flawless on every screen size.",
+    svc1_title: "Web & Full-Stack Development",
+    svc1_text: "I build end-to-end, fast and scalable web applications with Next.js and React.",
+    svc2_title: "Mobile App Development",
+    svc2_text: "I ship iOS and Android apps from a single codebase with Flutter.",
     svc3_title: "AI-Assisted Development",
     svc3_text: "I accelerate development workflows with Claude Code and Copilot.",
-    svc4_title: "Performance",
-    svc4_text: "I optimize websites for speed and efficiency.",
+    svc4_title: "Responsive Design",
+    svc4_text: "Interfaces that look flawless on every screen size.",
     svc5_title: "Embedded Systems & IoT",
     svc5_text: "I build smart automation systems with Arduino and sensors.",
     svc6_title: "Maintenance & Support",
@@ -150,6 +172,26 @@ const translations = {
 
     projects_title: "My Projects",
     projects_sub: "Some of the work I've built.",
+    proj_view: "View Project",
+    proj_featured_badge: "⭐ Featured Project",
+    proj_archi_title: "ArchiMotion — AI-Powered Architectural Video Platform",
+    proj_archi_desc:
+      "A full-stack SaaS platform that generates AI-powered architectural promo " +
+      "videos for architects and contractors. Built with Next.js, featuring user " +
+      "management (Supabase), subscription billing (Stripe) and 3D building " +
+      "animations with Three.js.",
+    proj_chat_title: "Flutter AI Chat App",
+    proj_chat_desc:
+      "A cross-platform AI chat app powered by the Claude API. Features real-time " +
+      "messaging, conversation history and customizable AI personas.",
+    proj_expense_title: "Flutter Expense Tracker",
+    proj_expense_desc:
+      "A feature-rich expense tracking app built with Flutter and Firebase. " +
+      "Supports categories, budgets, charts and monthly reports.",
+    proj_vibe_title: "Vibe Coding Showcase",
+    proj_vibe_desc:
+      "A collection of mini mobile apps rapidly prototyped with AI-assisted " +
+      "development tools (Cursor, Claude).",
     project1_title: "Smart Automated Greenhouse System",
     project1_desc:
       "An Arduino-based automation system that monitors temperature, humidity " +
@@ -186,9 +228,10 @@ const translations = {
 
     skills_title: "Skills",
     skills_sub: "Technologies and tools I work with.",
-    skills_g1_title: "Programming & Web",
-    skills_g2_title: "AI & Embedded Systems",
-    skills_g3_title: "Tools & Certifications",
+    skills_g1_title: "Frontend & Web",
+    skills_g2_title: "Mobile & Backend",
+    skills_g3_title: "AI & Embedded Systems",
+    skills_g4_title: "Languages & Tools",
 
     contact_title: "Let's build something amazing together",
     contact_text:
@@ -198,9 +241,9 @@ const translations = {
     footer_rights: "All rights reserved.",
 
     typewriter: [
-      "I build responsive websites.",
+      "I build full-stack apps with Next.js & React.",
+      "I create cross-platform mobile apps with Flutter.",
       "I work with Python & OpenCV.",
-      "I build smart systems with Arduino.",
       "I develop fast with AI-assisted tools."
     ]
   }
@@ -272,6 +315,7 @@ function restartTypewriter() {
 const detectText = document.getElementById("detectText");
 const detectLabels = [
   "web_developer · 0.99",
+  "full_stack_dev · 0.98",
   "computer_engineer · 0.98",
   "ai_enthusiast · 0.97",
   "arduino_builder · 0.95",

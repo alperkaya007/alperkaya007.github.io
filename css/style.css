@@ -577,6 +577,37 @@ ul {
 .banner-1 { background: linear-gradient(135deg, #e1a87a, #c98e5e); }
 .banner-2 { background: linear-gradient(135deg, #303030, #606060); }
 .banner-3 { background: linear-gradient(135deg, #caa27e, #8d6748); }
+.banner-archi { background: linear-gradient(135deg, #e6b088, #c4501a 70%, #2a1e10); }
+
+/* Öne çıkan (amiral gemisi) proje: tam genişlik, yatay yerleşim */
+.project-featured {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  align-items: stretch;
+  border: 1px solid rgba(225, 168, 122, 0.45);
+}
+
+.project-featured .project-banner {
+  height: 100%;
+  min-height: 280px;
+  font-size: 5rem;
+}
+
+.project-featured .project-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.4rem;
+}
+
+.project-featured .project-body h3 {
+  font-size: 1.5rem;
+}
+
+.project-featured .project-body p {
+  font-size: 1rem;
+}
 
 .project-body {
   padding: 1.6rem;
@@ -593,6 +624,19 @@ ul {
   margin-bottom: 1rem;
 }
 
+.project-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: var(--accent-dark);
+  background: rgba(225, 168, 122, 0.18);
+  padding: 0.28rem 0.8rem;
+  border-radius: 999px;
+  margin-bottom: 0.8rem;
+}
+
 .project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -607,6 +651,26 @@ ul {
   font-weight: 500;
   padding: 0.22rem 0.7rem;
   border-radius: 999px;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 0.4rem;
+  margin-top: auto;
+  color: var(--accent-dark);
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.project-link:hover {
+  color: var(--dark);
+}
+
+.project-link:hover .arrow {
+  transform: translateX(5px);
 }
 
 /* ============ EXPERIENCE (zaman çizelgesi) ============ */
@@ -881,6 +945,23 @@ ul {
   .projects-grid,
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-featured {
+    grid-template-columns: 1fr;
+  }
+
+  .project-featured .project-banner {
+    min-height: 170px;
+    height: 170px;
+  }
+
+  .project-featured .project-body {
+    padding: 1.6rem;
+  }
+
+  .project-featured .project-body h3 {
+    font-size: 1.25rem;
   }
 
   .floating-icon {
