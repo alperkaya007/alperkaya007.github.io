@@ -28,9 +28,9 @@ const translations = {
     feature2_title: "Yapay Zekâ ile Geliştiriyorum",
     feature2_text:
       "Claude Code ve GitHub Copilot gibi modern yapay zekâ araçlarını " +
-      "geliştirme sürecime entegre ediyorum. Gömülü sistemlerden bilgisayarlı " +
-      "görüye uzanan projelerimde çözüm odaklı ve takım çalışmasına yatkın " +
-      "bir yaklaşım benimsiyorum.",
+      "geliştirme sürecime entegre ediyorum. Web ve mobil uygulamalardan " +
+      "bilgisayarlı görüye uzanan projelerimde çözüm odaklı ve takım çalışmasına " +
+      "yatkın bir yaklaşım benimsiyorum.",
     feature2_link: "Yeteneklerimi incele",
 
     services_title: "Size Nasıl Yardımcı Olabilirim?",
@@ -43,8 +43,8 @@ const translations = {
     svc3_text: "Claude Code ve Copilot ile geliştirme süreçlerini hızlandırıyorum.",
     svc4_title: "Responsive Tasarım",
     svc4_text: "Her ekran boyutunda kusursuz görünen arayüzler tasarlıyorum.",
-    svc5_title: "Gömülü Sistemler & IoT",
-    svc5_text: "Arduino ve sensörlerle akıllı otomasyon sistemleri kuruyorum.",
+    svc5_title: "Backend & API Entegrasyonu",
+    svc5_text: "Supabase, Firebase ve Stripe gibi servislerle kimlik doğrulama, veritabanı ve ödeme entegrasyonları kuruyorum.",
     svc6_title: "Bakım & Destek",
     svc6_text: "Yayındaki sitelerin güncel ve sorunsuz kalmasını sağlıyorum.",
 
@@ -67,14 +67,11 @@ const translations = {
     proj_expense_desc:
       "Flutter ve Firebase ile geliştirilen kapsamlı bir gider takip uygulaması. " +
       "Kategoriler, bütçeler, grafikler ve aylık raporlar içeriyor.",
-    proj_vibe_title: "Vibe Coding Showcase",
+    proj_vibe_title: "Vibe Coding — AI İçerik & Tasarım",
     proj_vibe_desc:
-      "Yapay zekâ destekli geliştirme araçlarıyla (Cursor, Claude) hızlıca " +
-      "prototiplenmiş mini mobil uygulamalar koleksiyonu.",
-    project1_title: "Akıllı Sera Otomasyon Sistemi",
-    project1_desc:
-      "Sıcaklık, nem ve toprak nemini izleyerek sulama, havalandırma ve " +
-      "aydınlatmayı otomatik kontrol eden Arduino tabanlı otomasyon sistemi.",
+      "Yapay zekâ ile içerik üretimi, görsel tasarım ve hızlı prototipleme " +
+      "çalışmaları. Cursor ve Claude gibi araçlarla \"vibe coding\" yaklaşımıyla " +
+      "üretilen mini projeler koleksiyonu.",
     project2_title: "Gerçek Zamanlı Nesne Tanıma",
     project2_desc:
       "Python ve OpenCV ile geliştirilen, görüntü işleme teknikleriyle " +
@@ -102,14 +99,14 @@ const translations = {
     exp3_title: "Bilgisayar Mühendisliği Lisans",
     exp3_place: "Selçuk Üniversitesi · Konya",
     exp3_text:
-      "Yazılım geliştirme, web teknolojileri, gömülü sistemler ve yapay zekâ " +
+      "Yazılım geliştirme, web teknolojileri, veri yapıları ve yapay zekâ " +
       "üzerine lisans eğitimi. Selçuk Teknofest Topluluğu üyesi.",
 
     skills_title: "Yetenekler",
     skills_sub: "Çalıştığım teknolojiler ve araçlar.",
     skills_g1_title: "Frontend & Web",
     skills_g2_title: "Mobil & Backend",
-    skills_g3_title: "Yapay Zekâ & Gömülü Sistemler",
+    skills_g3_title: "Yapay Zekâ & Görüntü İşleme",
     skills_g4_title: "Diller & Araçlar",
 
     contact_title: "Birlikte harika bir şeyler yapalım",
@@ -151,7 +148,7 @@ const translations = {
     feature2_title: "I Develop with AI",
     feature2_text:
       "I integrate modern AI tools like Claude Code and GitHub Copilot into my " +
-      "development workflow. Across projects ranging from embedded systems to " +
+      "development workflow. Across projects ranging from web and mobile apps to " +
       "computer vision, I bring a solution-driven, team-oriented approach.",
     feature2_link: "Check out my skills",
 
@@ -165,8 +162,8 @@ const translations = {
     svc3_text: "I accelerate development workflows with Claude Code and Copilot.",
     svc4_title: "Responsive Design",
     svc4_text: "Interfaces that look flawless on every screen size.",
-    svc5_title: "Embedded Systems & IoT",
-    svc5_text: "I build smart automation systems with Arduino and sensors.",
+    svc5_title: "Backend & API Integration",
+    svc5_text: "I set up authentication, database and payment integrations with services like Supabase, Firebase and Stripe.",
     svc6_title: "Maintenance & Support",
     svc6_text: "I keep live websites up-to-date and running smoothly.",
 
@@ -188,14 +185,11 @@ const translations = {
     proj_expense_desc:
       "A feature-rich expense tracking app built with Flutter and Firebase. " +
       "Supports categories, budgets, charts and monthly reports.",
-    proj_vibe_title: "Vibe Coding Showcase",
+    proj_vibe_title: "Vibe Coding — AI Content & Design",
     proj_vibe_desc:
-      "A collection of mini mobile apps rapidly prototyped with AI-assisted " +
-      "development tools (Cursor, Claude).",
-    project1_title: "Smart Automated Greenhouse System",
-    project1_desc:
-      "An Arduino-based automation system that monitors temperature, humidity " +
-      "and soil moisture to automatically control irrigation, ventilation and lighting.",
+      "AI-powered content generation, visual design and rapid prototyping. " +
+      "A collection of mini projects created with the \"vibe coding\" approach " +
+      "using tools like Cursor and Claude.",
     project2_title: "Real-Time Object Recognition",
     project2_desc:
       "A real-time object detection app built with Python and OpenCV, applying " +
@@ -223,14 +217,14 @@ const translations = {
     exp3_title: "B.Sc. Computer Engineering",
     exp3_place: "Selçuk University · Konya",
     exp3_text:
-      "Degree focused on software development, web technologies, embedded " +
-      "systems and AI. Member of the Selçuk Teknofest Community.",
+      "Degree focused on software development, web technologies, data " +
+      "structures and AI. Member of the Selçuk Teknofest Community.",
 
     skills_title: "Skills",
     skills_sub: "Technologies and tools I work with.",
     skills_g1_title: "Frontend & Web",
     skills_g2_title: "Mobile & Backend",
-    skills_g3_title: "AI & Embedded Systems",
+    skills_g3_title: "AI & Computer Vision",
     skills_g4_title: "Languages & Tools",
 
     contact_title: "Let's build something amazing together",
@@ -318,7 +312,7 @@ const detectLabels = [
   "full_stack_dev · 0.98",
   "computer_engineer · 0.98",
   "ai_enthusiast · 0.97",
-  "arduino_builder · 0.95",
+  "flutter_dev · 0.96",
   "coffee_lover · 1.00"
 ];
 let detectIndex = 0;
