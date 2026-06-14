@@ -108,6 +108,13 @@ const translations = {
     skills_g2_title: "Mobil & Backend",
     skills_g3_title: "Yapay Zekâ & Görüntü İşleme",
     skills_g4_title: "Diller & Araçlar",
+    skills_g5_title: "Genel Yetenekler",
+    skill_api: "API Entegrasyonu",
+    skill_payment: "Ödeme Entegrasyonu (Stripe)",
+    skill_auth: "Kimlik Doğrulama (Auth)",
+    skill_rest: "REST API",
+    skill_db: "Veritabanı Tasarımı",
+    skill_webhook: "Webhook Entegrasyonu",
 
     contact_title: "Birlikte harika bir şeyler yapalım",
     contact_text:
@@ -226,6 +233,13 @@ const translations = {
     skills_g2_title: "Mobile & Backend",
     skills_g3_title: "AI & Computer Vision",
     skills_g4_title: "Languages & Tools",
+    skills_g5_title: "General Skills",
+    skill_api: "API Integration",
+    skill_payment: "Payment Integration (Stripe)",
+    skill_auth: "Authentication (Auth)",
+    skill_rest: "REST API",
+    skill_db: "Database Design",
+    skill_webhook: "Webhook Integration",
 
     contact_title: "Let's build something amazing together",
     contact_text:
